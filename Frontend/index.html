@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <title>Sign Language Interpreter</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        
+        <script> 
+            $(function(){
+                $("#header").load("header.html"); 
+                });
+        </script> 
+
+        <style>
+            li.conversion_steps{
+                display: inline;
+                /* border-style: dashed; */
+            }
+
+            td.conversion-steps-elements{
+                text-align: center;
+                width: 25%;
+                /* border-style: dotted; */
+            }
+            div.test{
+                background-image: url('images/background_electronics.jpg');
+                height: 80%;
+                width: 100%;
+            }
+            
+            
+
+        </style>
+        
+    </head>
+
+    <body>
+        <div id="header"></div>
+
+        <h1 style="text-align: center;">
+            Free Optical Character Recognition service text from images
+        </h1>
+
+        <h2 style="text-align: center;">
+            that helps to get a printed text from PDF documents and photos.
+        </h2>
+
+        <form action="model.py" style="text-align: center;">
+            <p>Select an file or PDF for further recognition</p>
+            <input type="file" name="video">
+            <p>Maximum file size 8 Mb.</p>
+            <input type="submit" name="submit" value="Convert">
+        </form>
+
+        <h2 style="text-align: center;">How it works</h2>
+
+        <!-- <ol type="I">
+            <li class="conversion_steps">
+                <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                Scan text or get a photo for OCR recognition
+            </li>
+            
+            
+            <li class="conversion_steps">
+                <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                Upload file
+
+            </li>
+            <li class="conversion_steps">
+                <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                Select the language of the text content in the file
+            </li>
+            <li class="conversion_steps">
+                <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                After processing the file, you will get the result
+            </li>
+        </ol> -->
+
+        <table CellPadding="5">
+            <tr>
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/principle_pic_1.png" alt="">
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="conversion-steps-elements">
+                    <p><b>Scan text or get a photo for OCR recognition</b></p>
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <p><b>Upload file</b></p>
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <p><b>Select the language of the text content in the file</b></p>
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <p><b>After processing the file, you will get the result</b></p>
+                </td>
+                
+            </tr>
+
+        </table>
+        <br>
+
+        <div class="test">
+            <!-- <img src="images/background_electronics.jpg" alt="" width="100%"> -->
+            <br>
+            <br>
+            <br>
+            <h2>File formats</h2>
+            <ul type="square">
+                <li>Images: jpg, jpeg, png</li>
+                <li>Multi-page documents: pdf</li>
+            </ul>
+            <br>
+            <br>
+
+            <h2>Saving results</h2>
+            <ul type="square">
+                <li>Plain text (txt)</li>
+                <li>Adobe Acrobat (pdf)</li>
+                <li>Microsoft Word (docx)</li>
+                <li>OpenOffice (odf)</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <table CellSpacing="50px">
+            <caption><b>Our advantages</b></caption>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Simple and user-friendly interface</li>
+                        <li>Multilingual</li>
+                        <li>Quick text recognition</li>
+                        <li>Unlimited requests</li>
+                        <li>No registration</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>Data protection. Data between servers transmitted over SSL + will be automatically deleted.</li>
+                        <li>Support 35+ languages for text recognition</li>
+                        <li>Based on Tesseract OCR</li>
+                        <li>Image area recognition (in development)</li>
+                        <li>More than 33M+ requests processed</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <center><h2>Main Features</h2></center>
+
+        <table CellPadding="5">
+            <tr>
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/check.png" alt="">
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/check.png" alt="">
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/check.png" alt="">
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <img class="conversion_images" src="https://img2txt.com/assets/i/check.png" alt="">
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="conversion-steps-elements">
+                    <p><b>Recognition of scanned files and photos containing text</b></p>
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <p><b>Getting printed text</b></p>
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <p><b>Formatting paper and PDF documents in editable formats</b></p>
+                </td>
+                
+                <td class="conversion-steps-elements">
+                    <p><b>Editing documents online</b></p>
+                </td>
+                
+            </tr>
+
+        </table>
+        
+        <br>
+        <hr>
+
+        <p>
+            Welcome, students, workers from the office and staff of a large library!
+            <br>
+            <br>
+            Do you have a textbook or some kind of journal from which you need to get the text, but you have no time to print it yourself?
+            <br>
+            <br>
+            Our service will help you to get a text from a photo or PDF document. After receiving the result, you can download the text and translate it through Google Translate, convert it to a PDF file, or save it in Word format.
+            <br>
+            <br>
+            OCR or Optical Character Recognition has never been so easy. All you need is to scan or take a photo of the text you need, select the file, and upload it to our text recognition service. If the image with the text was clear enough, you will receive recognized and readable text.
+            <br>
+            <br>
+            Also you can transform PDF file into images, on output you will get zip archive.
+            <br>
+            <br>
+            This service does not support hand-written texts.
+        </p>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
