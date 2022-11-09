@@ -16,10 +16,59 @@
                 $("#header").load("header.html"); 
                 });
         </script> 
+
+
+        <style>
+            body
+            {
+                background-color: #f7f8f9;
+            }
+
+            div.about-service-body
+            {
+                background-color: #ffffff;
+                position: absolute;
+                left:  5%;
+                right: 5%;
+                padding-top: 2%;
+                padding-bottom: 1%;
+                padding-right: 3%;
+                padding-left: 5%;
+            }
+        </style>
         
     </head>
     <body>
         <div id="header"></div>
+
+        <h1 style="position: relative; left:  5%; right: 5%;">About service</h1>
         
+        <div class="about-service-body">
+            <img src="images/logo_video2txt.png" alt="logo" width="15%">
+
+            <h3>Service Information</h3>
+
+            <p>
+                The service allows you to get a printed text from an image using optical character recognition (OCR). You do not need to install additional programs on your computer or smartphone. To recognize the text, you need to prepare the appropriate image and upload it, then select the language a text is written in and after that, you will receive the result.
+                <br><br>
+                The image must be of good quality and the text should be in a horizontal position, see for example the image at (picture).
+                <br><br>
+                About the service. The service started around 04/07/2014, alas, there is no exact launch date. This date was suggested by the Wayback Machine.There, you can see how the resource has changed over the years and we're making progress. If you are interested in what was added and when, there is a history of changes.
+                <br><br>
+                We have a lot of plans for how to improve functionality. We welcome your ideas which you can send to web@img2txt.com.
+                <br><br>
+            </p>
+
+            <h3>Technologies</h3>
+
+            <p>
+                We use Tesseract OCR for recognition. The site is developed in PHP, initially without using a framework. In the summer of 2019, we moved to Laravel and the DBMS - MariaDB. It has its API (non-public). We plan to implement our own algorithms to improve recognition processing.
+                <br><br>
+                Requests are served by several VPS servers, and additional servers are included during load spikes.
+                <br><br>
+            </p>
+        
+        </div>
+
     </body>
 </html>
